@@ -1,0 +1,154 @@
+body{
+    background-color: #f5f5f5;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,140px);
+    grid-template-rows:repeat(9,30px);
+    
+    height: 1300px;
+    margin-left: 20%;
+    margin-top: 60px;
+    gap: 30px;
+    
+
+}
+.container div{
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "DM Sans", serif;
+    font-variation-settings: "wght" 570;
+    
+}
+.container .pr1 img{
+    position: relative;
+    top: 40px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+.container .pr1 span{
+    font-weight: bold;
+    font-style: italic;
+    color: #7651dc;
+}
+.pr1{
+    background-color: #faeee2;
+    grid-row: 1/5;
+}
+.pr2{
+    background-color: #7651dc;
+    grid-row: 1/4;
+    grid-column: 2/4;
+    color: #ffffff;
+    text-align: center;
+    font-size: 27px;
+}
+.container .pr2 span{
+    color: #ffcc69;
+}
+.container .pr2 img{
+    position: relative;
+    width: 100px;
+    
+    height: auto;
+}
+.container .pr2 p{
+font-size: 7px;
+font-weight: 0;
+}
+.pr3{
+    background-color: #dcd1fb;
+    grid-row: 1/7;
+    grid-column: 4/4;
+    overflow: hidden;
+}
+.container .pr3{
+    padding: 20px;
+}
+.container .pr3 img{
+    width: 190px;
+    position: relative;
+    top: 10px;
+    
+}
+.container .pr3 p{
+    padding-top: 10px;
+    font-size: 9px;
+    font-weight: 0;
+    }
+.pr4{
+    background-color:#ffffff ;
+    grid-row: 4/7;
+    grid-column: 2/3;
+    overflow: hidden;
+    
+}
+
+.container .pr4 img{
+    width: 178px;
+
+    
+}
+.container .pr4 p{
+    font-size: 15px;
+    font-weight: 0;
+}
+.pr5{
+    background-color: #ffcc69;
+    grid-row: 4/7;
+    overflow: hidden;
+    
+}
+.container .pr5 img{
+
+    width: 118px;
+
+    
+}
+.pr6{
+    background-color: #ffcc69;
+    grid-row: 5/10;
+    overflow: hidden;
+    font-size: 19px;
+}
+.container .pr6 img{
+
+    width: 126px;
+    position: relative;
+    top: 39px;
+
+    
+}
+.pr7{
+    background-color: #ffffff;
+    grid-row: 7/10;
+    font-size: 10px;
+    overflow: hidden;
+}
+.container .pr7 span{
+font-size: 30px; 
+}
+.container .pr7 img{
+    width: 120px;
+    position: relative;
+    top: 28px; 
+}
+.pr8{
+    background-color: #7651dc;
+    grid-row: 7/10;
+    grid-column: 3/5;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+}
+.container .pr8 img{
+    width: 140px;
+    position: relative;
+ 
+}
+.container .pr8 div{
+    font-size: 18px; 
+    color: white;
+    }
